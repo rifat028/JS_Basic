@@ -188,14 +188,14 @@ const p10 = () => {
 
 const p11 = () => {
   const result = products.sort((a, b) => b.rating.average - a.rating.average);
-  console.log("Solution of problem 8: ", result);
+  console.log("Solution of problem 11: ", result);
 };
 
 const p12 = () => {
   const result = products.filter(
     (product) => product.brand == "iphone" && product.price < 500,
   );
-  console.log("Solution of problem 8: ", result);
+  console.log("Solution of problem 12: ", result);
 };
 
 const p13 = () => {
@@ -204,7 +204,7 @@ const p13 = () => {
       (product.brand == "iphone" || product.brand == "samsung") &&
       product.price > 400,
   );
-  console.log("Solution of problem 8: ", result);
+  console.log("Solution of problem 13: ", result);
 };
 
 // function calling
